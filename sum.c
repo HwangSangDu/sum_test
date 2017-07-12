@@ -3,10 +3,11 @@
 int sum(int n)
 {	
 	int i,sum = 0;
-
+	/*
 	for(i = 1 ; i <= n ; i++)
 		sum += i;
 	printf("%d\n",sum);
-	return sum;
+	*/
+	return n*(n+1)/2;
 
 }
